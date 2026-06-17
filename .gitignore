@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.spec
+
+# Build
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Config (contains API keys)
+*.json
