@@ -56,7 +56,7 @@
 ### 方式二：Python 源码运行
 
 ```bash
-git clone https://github.com/stn0402/DeepSeekMonitor.git
+git clone https://github.com/1307610469/DeepSeekMonitor.git
 cd DeepSeekMonitor
 pip install requests
 python deepseek_monitor.py
