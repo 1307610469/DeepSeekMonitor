@@ -3,34 +3,6 @@
 > DeepSeek API 余额监控悬浮窗
 
 屏幕右下角的半透明悬浮窗，鼠标悬停展开完整信息卡片，移开自动折叠。支持多 API Key 监控，帮你实时掌握 DeepSeek 账户余额和 Token 使用量。
-
-## 截图
-
-```
-折叠态：                              展开态：
-┌─────────────────────┐              ┌──────────────────────────────────┐
-│ root@DeepSeek:~$ ¥8.19│              │ ┌─ DEEPSEEK MONITOR v2.0 ────────┐   │
-└─────────────────────┘              │ [20:31:42] 连接已建立             │
-                                     │                                  │
-                                     │ > ¥ 8.19                         │
-                                     │ TOTAL BALANCE                    │
-                                     │ - - - - - - - - - - - - - - - -  │
-                                     │ API_KEYS:                        │
-                                     │ ✓ 默认          ¥8.19            │
-                                     │ - - - - - - - - - - - - - - - -  │
-                                     │ TOKEN_USAGE:                     │
-                                     │ prompt:              0           │
-                                     │ completion:          0           │
-                                     │ total:               0           │
-                                     │ est_cost:     ¥0.0000            │
-                                     │ - - - - - - - - - - - - - - - -  │
-                                     │ last_sync: 10s ago       ONLINE  │
-                                     │                       [SYNC]    │
-                                     │ └───────────────────────────────┘ │
-                                     │ [右键菜单] [双击配置] [拖拽移动]   │
-                                     └──────────────────────────────────┘
-```
-
 ## 功能
 
 | 功能 | 操作 |
@@ -92,12 +64,6 @@ pyinstaller --onefile --windowed --name DeepSeekMonitor deepseek_monitor.py
 - Windows 10 / 11（64 位）
 - 无需安装 Python 环境（exe 版）
 - 纯本地运行，API Key 仅存在本地配置文件中
-
-## 技术栈
-
-- Python 3.14
-- tkinter（GUI）
-- requests（HTTP）
 - PyInstaller（打包）
 
 ## License
