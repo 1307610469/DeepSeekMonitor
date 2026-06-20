@@ -65,7 +65,3 @@ pyinstaller --onefile --windowed --name DeepSeekMonitor deepseek_monitor.py
 - 无需安装 Python 环境（exe 版）
 - 纯本地运行，API Key 仅存在本地配置文件中
 - PyInstaller（打包）
-
-## License
-
-MIT
